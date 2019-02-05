@@ -1,0 +1,25 @@
+
+.boton{
+    font-size: 1.5em;
+    border: 1px solid black;
+    margin: 10px!important;
+    
+    cursor: pointer;
+    background-color: rgba(56, 161, 126, 0.37);
+    margin: 0 auto;
+    
+}
+.container{
+  
+}
+img{
+    width: 50px;
+}
+h2{
+    background-color: gray;
+    border: 2px solid black;
+    color: beige;
+}
+.boton p{
+    font-weight: bolder
+}

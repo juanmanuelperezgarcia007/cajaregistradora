@@ -1,0 +1,9 @@
+<h2>{{titulo}}</h2>
+<div class="container col-12 row">
+        <div *ngFor="let prod of Productos" (click) ="addProducto(prod)" class="col-3 boton " >
+                <p>{{prod.nombre}}</p>
+                <p>{{prod.precio}}€</p>
+                <img [src]="prod.imagen">
+            </div>
+            
+</div>

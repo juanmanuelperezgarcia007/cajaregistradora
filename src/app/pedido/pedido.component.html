@@ -1,0 +1,12 @@
+<div class="container  ">
+    <h2>Pedido</h2>
+</div>
+<div *ngFor="let ped of pedido">
+        <img [src]="ped.imagen"> <p> {{ped.nombre}}  {{ped.precio}}€</p>
+        
+
+    </div>
+    <div id=totalPedido><hr>
+     <h3 id="total">Total</h3>
+     <span id="sumatotal">{{sumaTotal()}}€</span>
+    </div>

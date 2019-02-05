@@ -1,0 +1,26 @@
+img{
+    width: 50px;
+    }
+p{
+    display: inline-block
+
+}
+#total{
+    font-size: 2em;
+    border-bottom: 2px solid black;
+    width: 70%;
+    padding-left: 15px;
+}
+span{
+    font-size: 3em;
+    
+}
+h2{
+    background-color: gray;
+    border: 2px solid black;
+    color: beige;
+}
+.container{
+    text-align: center
+    
+}
