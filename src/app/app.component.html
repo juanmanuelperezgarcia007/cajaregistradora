@@ -1,17 +1,17 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <div class="container">
-  <h1 style="text-align:center" >
+  <h1 class=" col-12 col-xl-12"   style="text-align:center" >
     CAJA REGISTRADORA
    </h1>
 <div class="container row">
    
-        <div class="container col-8 lista" style="text-align:center">
+        <div class="container col-sm-12 col-xl-8 lista" style="text-align:center">
        
                <listaProductos (productoSeleccionado)=" addProducto($event)" titulo="Comidas" [Productos]="arrProductosComida"></listaProductos>
               <listaProductos (productoSeleccionado)=" addProducto($event)" titulo="Bebidas" [Productos]="arrProductosBebida"></listaProductos>
          </div>
       
-       <div  class="col-4 pedido"> 
+       <div  class="col-sm-12 col-xl-4 pedido"> 
           <pedido [pedido]="arrPedido"></pedido>
       </div>
 </div>
